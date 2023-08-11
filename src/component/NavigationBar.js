@@ -1,51 +1,69 @@
+import { Routes, Route, Link } from "react-router-dom";
+
+// STYLING
 import "bootstrap/dist/css/bootstrap.css";
 import "../App.css";
+
+// COMPONENT
+import Home from "./Home";
+import AboutMe from "./AboutMe";
+import Skills from "./Skills";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 function NavigationBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mx-auto">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav mx-auto">
             {/* Home */}
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+            <li className="nav-item active">
+              <Link to="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
 
             {/* About Me */}
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+            <li className="nav-item active">
+              <Link to="/about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
 
             {/* Skills */}
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+            <li className="nav-item active">
+              <Link to="/skills" className="nav-link">
                 Skills
-              </a>
+              </Link>
             </li>
 
             {/* Portfolio */}
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <Link to="/portfolio" className="nav-link">
                 Portfolio
-              </a>
+              </Link>
             </li>
 
             {/* Contact */}
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <Link to="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
 
         {/*  */}
       </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
