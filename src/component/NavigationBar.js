@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 
 // STYLING
 import "bootstrap/dist/css/bootstrap.css";
@@ -18,38 +18,38 @@ function NavigationBar() {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mx-auto">
             {/* Home */}
-            <li className="nav-item active">
-              <Link to="/" className="nav-link">
+            <li className="nav-item">
+              <NavLink to="/" className="nav-link">
                 Home
-              </Link>
+              </NavLink>
             </li>
 
             {/* About Me */}
-            <li className="nav-item active">
-              <Link to="/about" className="nav-link">
+            <li className="nav-item">
+              <NavLink to="/about" className="nav-link">
                 About
-              </Link>
+              </NavLink>
             </li>
 
             {/* Skills */}
-            <li className="nav-item active">
-              <Link to="/skills" className="nav-link">
+            <li className="nav-item">
+              <NavLink to="/skills" className="nav-link">
                 Skills
-              </Link>
+              </NavLink>
             </li>
 
             {/* Portfolio */}
             <li className="nav-item">
-              <Link to="/portfolio" className="nav-link">
+              <NavLink to="/portfolio" className="nav-link">
                 Portfolio
-              </Link>
+              </NavLink>
             </li>
 
             {/* Contact */}
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <NavLink to="/contact" className="nav-link">
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
