@@ -13,9 +13,9 @@ function Home() {
       <div className="container-fluid p-3">
         <div className="row">
           {/* GREETING */}
-          <div className="col-sm my-auto">
+          <div className="col-sm my-auto m-3">
             <h1>
-              Yo! I'm <br />{" "}
+              Yo! My name is <br />{" "}
               <span className="text-primary">William Oktavianus</span>!
             </h1>
             <hr />
@@ -23,16 +23,17 @@ function Home() {
               I'm a <span className="text-primary">junior programmer</span>{" "}
               who's about to embark on a new journey.
             </h3>
+            <br />
 
             <Link to="/contact">
-              <button type="button" class="btn btn-primary mt-3">
+              <button type="button" className="btn btn-primary">
                 Contact Me
               </button>
             </Link>
           </div>
 
           {/* PHOTO */}
-          <div className="col-lg">
+          <div className="col-lg m-3">
             <img src={photo} className="img-fluid" alt="Photo" />
           </div>
         </div>
