@@ -5,11 +5,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../App.css";
 
 // COMPONENT
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Skills from "./Skills";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import Home from "../pages/Home";
+import AboutMe from "../pages/AboutMe";
+import Skills from "../pages/Skills";
+import Portfolio from "../pages/Portfolio";
+import Contact from "../pages/Contact";
 
 function NavigationBar() {
   return (
