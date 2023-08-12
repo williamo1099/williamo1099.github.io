@@ -1,3 +1,8 @@
+div {
+  transition-timing-function: ease-out;
+  transition-delay: 10s;
+}
+
 .nav-item:hover {
   font-weight: bold;
 }
