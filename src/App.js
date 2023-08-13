@@ -1,10 +1,17 @@
+// STYLING
+import "bootstrap/dist/css/bootstrap.css";
+
 // COMPONENT
-import NavigationBar from "./component/NavigationBar";
+import createRoutes from "./routes/Routes";
+import Header from "./components/Header";
 
 function App() {
+  const routes = createRoutes();
+
   return (
-    <div>
-      <NavigationBar />
+    <div className="vh-100">
+      <Header />
+      {routes}
     </div>
   );
 }
