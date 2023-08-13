@@ -1,9 +1,5 @@
-body {
+.one-page {
   padding-top: 50px;
-}
-
-.vh-100 {
-  height: calc(100vh - 50px);
 }
 
 .nav-item:hover {

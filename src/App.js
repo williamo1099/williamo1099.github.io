@@ -4,14 +4,14 @@ import "./App.css";
 
 // COMPONENT
 import createRoutes from "./routes/Routes";
-import Header from "./components/Header";
+import NavigationBar from "./components/NavigationBar";
 
 function App() {
   const routes = createRoutes();
 
   return (
-    <div className="overflow-hidden">
-      <Header />
+    <div>
+      <NavigationBar />
       {routes}
     </div>
   );

@@ -1,5 +1,5 @@
 import { React, useRef } from "react";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Bounce } from "react-awesome-reveal";
 import emailjs from "@emailjs/browser";
 
 // STYLING
@@ -30,71 +30,73 @@ function Contact() {
 
   return (
     <Fade>
-      <div className="container-fluid mt-3">
-        <div className="text-center">
+      <div className="container-fluid one-page">
+        <div className="text-center mt-3">
           <h1>Get in Touch</h1>
           <h3>Don't be afraid to contact me!</h3>
         </div>
         <hr />
 
         {/* FORM */}
-        <div className="container border w-50 p-3">
-          <form ref={form} onSubmit={handleSubmit}>
-            {/* NAME */}
-            <div className="form-group">
-              <label>
-                Name <span className="text-danger">*</span>
-              </label>
-              <input
-                id="form-name"
-                name="name"
-                className="form-control"
-                type="text"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-            <br />
+        <Bounce delay={200} duration={750}>
+          <div className="container border w-75 mt-4 p-3">
+            <form ref={form} onSubmit={handleSubmit}>
+              {/* NAME */}
+              <div className="form-group">
+                <label>
+                  Name <span className="text-danger">*</span>
+                </label>
+                <input
+                  id="form-name"
+                  name="name"
+                  className="form-control"
+                  type="text"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <br />
 
-            {/* EMAIL */}
-            <div className="form-group">
-              <label>
-                E-mail <span className="text-danger">*</span>
-              </label>
-              <input
-                id="form-email"
-                name="email"
-                className="form-control"
-                type="email"
-                placeholder="Enter your e-mail address"
-                required
-              />
-            </div>
-            <br />
+              {/* EMAIL */}
+              <div className="form-group">
+                <label>
+                  E-mail <span className="text-danger">*</span>
+                </label>
+                <input
+                  id="form-email"
+                  name="email"
+                  className="form-control"
+                  type="email"
+                  placeholder="Enter your e-mail address"
+                  required
+                />
+              </div>
+              <br />
 
-            {/* MESSAGE */}
-            <div className="form-group">
-              <label>
-                Message <span className="text-danger">*</span>
-              </label>
-              <textarea
-                id="form-message"
-                name="message"
-                className="form-control"
-                rows="4"
-                type="text"
-                placeholder="Enter your message"
-                required
-              />
-            </div>
-            <br />
+              {/* MESSAGE */}
+              <div className="form-group">
+                <label>
+                  Message <span className="text-danger">*</span>
+                </label>
+                <textarea
+                  id="form-message"
+                  name="message"
+                  className="form-control"
+                  rows="4"
+                  type="text"
+                  placeholder="Enter your message"
+                  required
+                />
+              </div>
+              <br />
 
-            {/*  */}
-            <button type="submit" className="btn btn-primary">
-              Send
-            </button>
-          </form>
-        </div>
+              {/*  */}
+              <button type="submit" className="btn btn-primary">
+                Send
+              </button>
+            </form>
+          </div>
+        </Bounce>
       </div>
     </Fade>
   );
