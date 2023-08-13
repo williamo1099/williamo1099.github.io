@@ -6,7 +6,7 @@ import "../App.css";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand navbar-dark bg-primary fixed-top px-3">
+    <nav className="navbar navbar-expand navbar-dark bg-primary fixed-top">
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav mx-auto">
           {/* Home */}

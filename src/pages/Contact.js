@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <Fade>
-      <div className="container-fluid p-3">
+      <div className="container-fluid mt-3">
         <div className="text-center">
           <h1>Get in Touch</h1>
           <h3>Don't be afraid to contact me!</h3>

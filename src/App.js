@@ -1,5 +1,6 @@
 // STYLING
 import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 
 // COMPONENT
 import createRoutes from "./routes/Routes";
@@ -9,7 +10,7 @@ function App() {
   const routes = createRoutes();
 
   return (
-    <div className="vh-100">
+    <div className="overflow-hidden">
       <Header />
       {routes}
     </div>

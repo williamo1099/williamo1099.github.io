@@ -7,7 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 function AboutMe() {
   return (
     <Fade>
-      <div className="container-fluid p-3">
+      <div className="container-fluid mt-3">
         <div className="text-center">
           <h1>Know More About Me</h1>
         </div>
