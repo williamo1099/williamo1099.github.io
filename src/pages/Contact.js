@@ -5,6 +5,9 @@ import emailjs from "@emailjs/browser";
 // STYLING
 import "bootstrap/dist/css/bootstrap.css";
 
+// COMPONENTS
+import PageHeader from "../components/PageHeader";
+
 function Contact() {
   const form = useRef();
 
@@ -31,11 +34,10 @@ function Contact() {
   return (
     <Fade>
       <div className="container-fluid one-page">
-        <div className="text-center mt-3">
-          <h1>Get in Touch</h1>
-          <h3>Don't be afraid to contact me!</h3>
-        </div>
-        <hr />
+        <PageHeader
+          title="Get In Touch"
+          subtitle="Don't be afraid to contact me!"
+        />
 
         {/* FORM */}
         <Bounce delay={200} duration={750}>

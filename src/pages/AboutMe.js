@@ -4,14 +4,14 @@ import { Fade, AttentionSeeker } from "react-awesome-reveal";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+// COMPONENTS
+import PageHeader from "../components/PageHeader";
+
 function AboutMe() {
   return (
     <Fade>
       <div className="container-fluid one-page">
-        <div className="text-center mt-3">
-          <h1>Know More About Me</h1>
-        </div>
-        <hr />
+        <PageHeader title="Know More About Me" />
 
         <div className="container w-75 my-3">
           <h5 className="h5 my-2">
