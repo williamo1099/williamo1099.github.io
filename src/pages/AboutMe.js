@@ -1,4 +1,4 @@
-import { Fade } from "react-awesome-reveal";
+import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
 // STYLING
 import "bootstrap/dist/css/bootstrap.css";
@@ -7,44 +7,49 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 function AboutMe() {
   return (
     <Fade>
-      <div className="container-fluid mt-3">
-        <div className="text-center">
+      <div className="container-fluid one-page">
+        <div className="text-center mt-3">
           <h1>Know More About Me</h1>
         </div>
         <hr />
 
-        <div className="w-50 mx-auto my-3">
-          <div className="my-1">
+        <div className="container w-75 my-3">
+          <h5 className="h5 my-2">
             Ever since I was a kid, I was always fascinated by how my dad's
-            computer could be really 'smart' and curious about how people made
-            it that 'smart'. Therefore years later, I graduated as a bachelor
-            majoring in computer science at Parahyangan Catholic University.
-            During my college years, I have a learned a lot about programming
-            such as developing OOP softwares and its concepts using Java,
-            developing web and mobile softwares, database management, version
-            controls and typesetting with LaTeX are well learned. Besides I also
-            have an understanding about the basic of data science.
-          </div>
+            computer could be really <em>smart</em> and curious about how people
+            made it that <em>smart</em>. Long story short, I made it as a
+            bachelor majoring in computer science at Parahyangan Catholic
+            University. There I learnt a lot of new things about programming, a
+            way of making a computer <em>smart</em>. I built a number of
+            softwares and applications for several objectives. In addition, I
+            learnt a few about data science. Therefore for my thesis, I built a
+            software for clustering a bunch of documents by content using a
+            clustering algorithm.
+          </h5>
 
-          <div className="my-1">
-            After graduating from UNPAR, I made a decision of taking a break and
-            during this break, I have also learned some new skills toward the
-            mobile app development. While I lack of relevant work experience
-            yet, I am eager to learn new things and I am highly motivated to
-            write clean and well-documented codes. In addition, I have always
-            been able to work under pressure and deadlines as well as
-            experienced working independently or in a team.
-          </div>
+          <h5 className="h5 my-2">
+            &hellip;And it did <em>not</em> stop there. I continue learning a
+            lot of new stuffs that was never learnt during my college years.
+            Over time, I learn and everytime I finish learning about one thing,
+            I always build a new personal project as a pass for myself. Along
+            with that, I always keep my codes <em>clean</em> and organized as
+            well as safely store them in my GitHub. Well, that's all for this
+            little story about me as a&nbsp;
+            <span className="text-primary">junior programmer</span> and how it
+            all started. And I hope this is going to be a new and fun beginning
+            to my journey as a programmer.
+          </h5>
 
-          <div className="text-center">
-            <a href="https://linkedin.com/in/williamo1099">
-              <i class="bi bi-linkedin h3"></i>
-            </a>
-            &nbsp;&nbsp;
-            <a href="https://github.com/williamo1099">
-              <i class="bi bi-github h3"></i>
-            </a>
-          </div>
+          <AttentionSeeker effect="pulse">
+            <div className="text-center h2 my-2">
+              <a href="https://linkedin.com/in/williamo1099">
+                <i class="bi bi-linkedin px-2" />
+              </a>
+              <a href="https://github.com/williamo1099">
+                <i class="bi bi-github px-2" />
+              </a>
+            </div>
+          </AttentionSeeker>
         </div>
       </div>
     </Fade>

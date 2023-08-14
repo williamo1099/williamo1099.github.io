@@ -27,7 +27,7 @@ function Home() {
             <br />
 
             <Link to="/contact">
-              <Slide>
+              <Slide cascade={true}>
                 <button type="button" className="btn btn-primary btn-lg">
                   Contact Me
                 </button>
@@ -37,7 +37,7 @@ function Home() {
 
           {/* PHOTO */}
           <div className="col-md my-auto text-center m-3">
-            <Bounce delay={200}>
+            <Bounce>
               <img src={photo} className="img-fluid" alt="Photo" />
             </Bounce>
           </div>
