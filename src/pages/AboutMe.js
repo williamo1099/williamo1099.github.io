@@ -42,10 +42,10 @@ function AboutMe() {
 
           <AttentionSeeker effect="pulse">
             <div className="text-center h2 my-2">
-              <a href="https://linkedin.com/in/williamo1099">
+              <a href="https://linkedin.com/in/williamo1099" target="_blank">
                 <i class="bi bi-linkedin px-2" />
               </a>
-              <a href="https://github.com/williamo1099">
+              <a href="https://github.com/williamo1099" target="_blank">
                 <i class="bi bi-github px-2" />
               </a>
             </div>
