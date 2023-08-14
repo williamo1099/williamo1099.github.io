@@ -1,12 +1,8 @@
 import { Link } from "react-router-dom";
 import { Fade, Slide, Bounce } from "react-awesome-reveal";
 
-// STYLING
-import "bootstrap/dist/css/bootstrap.css";
-import "../App.css";
-
 // ASSETS
-import photo from "../assets/images/photo.png";
+import Profile from "../../assets/images/profile.png";
 
 function Home() {
   return (
@@ -38,7 +34,7 @@ function Home() {
           {/* PHOTO */}
           <div className="col-md my-auto text-center m-3">
             <Bounce>
-              <img src={photo} className="img-fluid" alt="Photo" />
+              <img src={Profile} className="img-fluid" alt="Photo" />
             </Bounce>
           </div>
         </div>

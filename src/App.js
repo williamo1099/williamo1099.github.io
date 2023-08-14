@@ -2,11 +2,14 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
-// COMPONENT
-import createRoutes from "./routes/Routes";
+// COMPONENTS
 import NavigationBar from "./components/NavigationBar";
 
+// ROUTES
+import createRoutes from "./routes/Routes";
+
 function App() {
+  // Create the route through views.
   const routes = createRoutes();
 
   return (

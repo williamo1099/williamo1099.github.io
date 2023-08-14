@@ -1,6 +1,3 @@
-// STYLING
-import "bootstrap/dist/css/bootstrap.css";
-
 function PageHeader(props) {
   return (
     <div className="container-fluid">

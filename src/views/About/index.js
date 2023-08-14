@@ -1,13 +1,9 @@
 import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
-// STYLING
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
-
 // COMPONENTS
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../../components/PageHeader";
 
-function AboutMe() {
+function About() {
   return (
     <Fade>
       <div className="container-fluid one-page">
@@ -56,4 +52,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default About;

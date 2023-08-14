@@ -2,11 +2,8 @@ import { React, useRef } from "react";
 import { Fade, Bounce } from "react-awesome-reveal";
 import emailjs from "@emailjs/browser";
 
-// STYLING
-import "bootstrap/dist/css/bootstrap.css";
-
 // COMPONENTS
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../../components/PageHeader";
 
 function Contact() {
   const form = useRef();
