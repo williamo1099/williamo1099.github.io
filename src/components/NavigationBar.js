@@ -24,13 +24,6 @@ function NavigationBar() {
               </NavLink>
             </li>
 
-            {/* Skills */}
-            <li className="nav-item">
-              <NavLink to="/skills" className="nav-link">
-                Skills
-              </NavLink>
-            </li>
-
             {/* Portfolio */}
             <li className="nav-item">
               <NavLink to="/portfolio" className="nav-link">
