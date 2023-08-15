@@ -33,7 +33,7 @@ function Contact() {
       <div className="container-fluid one-page">
         <PageHeader
           title="Get In Touch"
-          subtitle="Don't be afraid to contact me!"
+          subtitle="I will be in touch with you as soon as I read your message."
         />
 
         {/* FORM */}
@@ -42,7 +42,7 @@ function Contact() {
             <form ref={form} onSubmit={handleSubmit}>
               {/* NAME */}
               <div className="form-group">
-                <label>
+                <label className="form-label">
                   Name <span className="text-danger">*</span>
                 </label>
                 <input
@@ -58,7 +58,7 @@ function Contact() {
 
               {/* EMAIL */}
               <div className="form-group">
-                <label>
+                <label className="form-label">
                   E-mail <span className="text-danger">*</span>
                 </label>
                 <input
@@ -74,7 +74,7 @@ function Contact() {
 
               {/* MESSAGE */}
               <div className="form-group">
-                <label>
+                <label className="form-label">
                   Message <span className="text-danger">*</span>
                 </label>
                 <textarea
@@ -90,7 +90,10 @@ function Contact() {
               <br />
 
               {/*  */}
-              <button type="submit" className="btn btn-secondary">
+              <button
+                type="submit"
+                className="btn btn-secondary w-100 rounded-0"
+              >
                 Send
               </button>
             </form>
