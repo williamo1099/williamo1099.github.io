@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Fade, Slide, Bounce } from "react-awesome-reveal";
 
 // ASSETS
-import Profile from "../../assets/images/profile.png";
+import Profile from "assets/images/profile.png";
 
 function Home() {
   return (

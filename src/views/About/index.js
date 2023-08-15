@@ -1,7 +1,7 @@
 import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
 // COMPONENTS
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "components/PageHeader";
 
 function About() {
   return (

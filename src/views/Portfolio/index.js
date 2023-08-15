@@ -1,8 +1,8 @@
 import { Fade, Slide } from "react-awesome-reveal";
 
 // COMPONENTS
-import PageHeader from "../../components/PageHeader";
-import ProjectCard from "../../components/ProjectCard";
+import PageHeader from "components/PageHeader";
+import ProjectCard from "components/ProjectCard";
 
 function Portfolio() {
   const projects = [

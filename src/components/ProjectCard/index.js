@@ -1,6 +1,3 @@
-// STYLING
-import "bootstrap/dist/css/bootstrap.css";
-
 function ProjectCard(props) {
   return (
     <div className="col-sm m-2">

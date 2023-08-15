@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
 // COMPONENT
-import Home from "../views/Home";
-import About from "../views/About";
-import Portfolio from "../views/Portfolio";
-import Contact from "../views/Contact";
+import Home from "views/Home";
+import About from "views/About";
+import Portfolio from "views/Portfolio";
+import Contact from "views/Contact";
 
 function createRoutes() {
   return (

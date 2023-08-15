@@ -4,10 +4,10 @@ import "App.css";
 import "scss/custom.scss";
 
 // COMPONENTS
-import NavigationBar from "./components/NavigationBar";
+import NavigationBar from "components/NavigationBar";
 
 // ROUTES
-import createRoutes from "./routes/Routes";
+import createRoutes from "routes/Routes";
 
 function App() {
   // Create the route through views.

@@ -3,7 +3,7 @@ import { Fade, Bounce } from "react-awesome-reveal";
 import emailjs from "@emailjs/browser";
 
 // COMPONENTS
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "components/PageHeader";
 
 function Contact() {
   const form = useRef();
