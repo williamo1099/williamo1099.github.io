@@ -38,7 +38,7 @@ function Contact() {
 
         {/* FORM */}
         <Bounce delay={200} duration={750}>
-          <div className="container border w-75 mt-4 p-3">
+          <div className="container w-75 mt-4 p-3">
             <form ref={form} onSubmit={handleSubmit}>
               {/* NAME */}
               <div className="form-group">
@@ -48,7 +48,7 @@ function Contact() {
                 <input
                   id="form-name"
                   name="name"
-                  className="form-control"
+                  className="form-control border-secondary rounded-0 bg-transparent"
                   type="text"
                   placeholder="Enter your name"
                   required
@@ -64,7 +64,7 @@ function Contact() {
                 <input
                   id="form-email"
                   name="email"
-                  className="form-control"
+                  className="form-control border-secondary rounded-0 bg-transparent"
                   type="email"
                   placeholder="Enter your e-mail address"
                   required
@@ -80,7 +80,7 @@ function Contact() {
                 <textarea
                   id="form-message"
                   name="message"
-                  className="form-control"
+                  className="form-control border-secondary rounded-0 bg-transparent"
                   rows="4"
                   type="text"
                   placeholder="Enter your message"

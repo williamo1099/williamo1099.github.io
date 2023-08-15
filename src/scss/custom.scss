@@ -1,15 +1,16 @@
-/* stylesheet.scss */
-
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
-/* Your customizations here */
-
+// COLORS
 $theme-colors: (
   primary: #96b6b4,
   secondary: #45483c,
   dark: #000000,
 );
+
+// FONT
+$font-family-base: "PT Sans";
+$font-size-base: 1rem;
 
 @import "bootstrap";

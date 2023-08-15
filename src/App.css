@@ -1,7 +1,34 @@
+/* FONT */
+@font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans"),
+    url("assets/fonts/PT_Sans/PTSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Caption";
+  src: local("PT Sans Caption"),
+    url("assets/fonts/PT_Sans_Caption/PTSansCaption-Bold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue"),
+    url("assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+}
+
+.font-caption {
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 2em;
+}
+
 .one-page {
   padding-top: 50px;
 }
 
+/* LINK */
 .nav-item:hover {
   font-weight: bold;
 }

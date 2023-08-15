@@ -1,7 +1,7 @@
 function ProjectCard(props) {
   return (
     <div className="col-sm m-2">
-      <div className="card d-flex flex-column h-100">
+      <div className="card h-100 bg-secondary text-light">
         <div className="card-body">
           {props.image != null ?? (
             <img class="card-img-top" src={props.image} />
