@@ -58,14 +58,14 @@ function About() {
             <div className="container text-center my-3">
               {/* LinkedIn */}
               <a href="https://linkedin.com/in/williamo1099" target="_blank">
-                <button className="btn btn-secondary btn-lg rounded-0 mx-1">
+                <button className="btn btn-secondary btn-lg rounded-0 m-1">
                   See me on LinkedIn
                 </button>
               </a>
 
               {/* GitHub */}
               <a href="https://github.com/williamo1099" target="_blank">
-                <button className="btn btn-secondary btn-lg rounded-0 mx-1">
+                <button className="btn btn-secondary btn-lg rounded-0 m-1">
                   See me on GitHub
                 </button>
               </a>

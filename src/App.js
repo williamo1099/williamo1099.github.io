@@ -15,7 +15,7 @@ function App() {
   const routes = createRoutes();
 
   return (
-    <div className="vh-100 bg-primary">
+    <div className="vh-100 overflow-auto bg-primary">
       <NavigationBar />
       {routes}
     </div>
