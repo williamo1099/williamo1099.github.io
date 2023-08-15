@@ -33,6 +33,14 @@
   font-family: "PT Sans Bold";
 }
 
+/* RESPONSIVE STYLINGS */
+@media (orientation: portrait) {
+  .home-greeting {
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+
 .one-page {
   padding-top: 50px;
 }

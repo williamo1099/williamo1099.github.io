@@ -10,7 +10,7 @@ function Home() {
       <div className="d-flex container-fluid vh-100 one-page">
         <div className="row my-auto">
           {/* GREETING */}
-          <div className="col-lg my-auto m-auto">
+          <div className="col-lg home-greeting my-auto m-auto">
             <h1>
               Yo! My name is <br />
               <Slide cascade={true}>
