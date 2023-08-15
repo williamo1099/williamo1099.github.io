@@ -5,7 +5,7 @@ function PageHeader(props) {
         <h1>{props.title}</h1>
         <h3>{props.subtitle}</h3>
       </div>
-      <hr className="border border-primary border-2" />
+      <hr className="border border-secondary border-2" />
     </div>
   );
 }

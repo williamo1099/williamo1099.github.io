@@ -13,18 +13,21 @@ function Home() {
           <div className="col-lg my-auto m-auto">
             <h1>
               Yo! My name is <br />
-              <span className="text-primary">William Oktavianus</span>!
+              <span className="text-uppercase font-weight-bold">
+                William Oktavianus
+              </span>
+              !
             </h1>
             <hr />
             <h3>
-              I'm a <span className="text-primary">junior programmer</span>
+              I'm a <span className="">junior programmer</span>
               &nbsp;who's about to embark on a new journey.
             </h3>
             <br />
 
             <Link to="/contact">
               <Slide cascade={true}>
-                <button type="button" className="btn btn-primary btn-lg">
+                <button type="button" className="btn btn-secondary btn-lg">
                   Contact Me
                 </button>
               </Slide>

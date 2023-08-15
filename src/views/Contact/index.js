@@ -90,7 +90,7 @@ function Contact() {
               <br />
 
               {/*  */}
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-secondary">
                 Send
               </button>
             </form>

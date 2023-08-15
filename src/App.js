@@ -1,7 +1,8 @@
 // STYLING
 import "bootstrap/dist/css/bootstrap.css";
-import "App.css";
 import "scss/custom.scss";
+
+import "App.css";
 
 // COMPONENTS
 import NavigationBar from "components/NavigationBar";
@@ -14,7 +15,7 @@ function App() {
   const routes = createRoutes();
 
   return (
-    <div>
+    <div className="vh-100 bg-primary">
       <NavigationBar />
       {routes}
     </div>
