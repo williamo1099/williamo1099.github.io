@@ -39,6 +39,10 @@
     padding-top: 50px;
     text-align: center;
   }
+
+  .projects-row-soon {
+    text-align: center;
+  }
 }
 
 .one-page {

@@ -3,16 +3,22 @@ function ProjectCard(props) {
     <div className="col-sm m-2">
       <div className="card h-100 bg-secondary text-light">
         <div className="card-body">
-          {props.image != null ?? (
-            <img class="card-img-top" src={props.image} />
-          )}
+          {/* IMAGE */}
+          <img
+            src={require("assets/images/projects/" + props.image)}
+            className=" card-image-top img-thumbnail w-50 mb-2"
+          />
+
+          {/* TITLE */}
           <h5 className="card-title">{props.title}</h5>
+
+          {/* DESCRIPTION */}
           <p className="card-text">{props.description}</p>
         </div>
 
         <div className="card-footer">
-          <a className="" href={props.link} target="_blank">
-            See more <i class="bi bi-box-arrow-up-right mx-1" />
+          <a className="text-light" href={props.link} target="_blank">
+            See more
           </a>
         </div>
       </div>
