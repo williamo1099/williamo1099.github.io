@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.537762bb.css",
-    "main.js": "/static/js/main.4a6a11b5.js",
+    "main.css": "/static/css/main.cdacd2d6.css",
+    "main.js": "/static/js/main.338714dc.js",
     "static/js/787.e40acab9.chunk.js": "/static/js/787.e40acab9.chunk.js",
     "static/media/profile.png": "/static/media/profile.d7b0dd8c7bd93369e10e.png",
-    "static/media/PTSans-Bold.ttf": "/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
     "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "static/media/metronome.png": "/static/media/metronome.24920c9f50d70dab8236.png",
@@ -12,12 +11,12 @@
     "static/media/list-timer.png": "/static/media/list-timer.a0911b8dc53506c07d8d.png",
     "static/media/sleeping-anya.gif": "/static/media/sleeping-anya.9b20b405ed2fa5419ca3.gif",
     "index.html": "/index.html",
-    "main.537762bb.css.map": "/static/css/main.537762bb.css.map",
-    "main.4a6a11b5.js.map": "/static/js/main.4a6a11b5.js.map",
+    "main.cdacd2d6.css.map": "/static/css/main.cdacd2d6.css.map",
+    "main.338714dc.js.map": "/static/js/main.338714dc.js.map",
     "787.e40acab9.chunk.js.map": "/static/js/787.e40acab9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.537762bb.css",
-    "static/js/main.4a6a11b5.js"
+    "static/css/main.cdacd2d6.css",
+    "static/js/main.338714dc.js"
   ]
 }
