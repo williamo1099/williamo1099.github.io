@@ -17,7 +17,7 @@ body {
 
 /* RESPONSIVE STYLINGS */
 @media (orientation: portrait) {
-  .centering-portrait {
+  .portrait-center-display {
     text-align: center;
   }
 }

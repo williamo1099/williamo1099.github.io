@@ -48,23 +48,17 @@ function Portfolio() {
           subtitle="Some of my personal projects."
         />
 
-        <Slide>
-          <div className="row p-3">
-            {projects.map((project) => {
-              return (
-                <ProjectCard
-                  title={project.title}
-                  description={project.description}
-                  link={project.link}
-                  image={project.image}
-                />
-              );
-            })}
-
-            <div className="col-sm m-1 my-auto centering-portrait">
-              <h2>And more is coming soon</h2>
-            </div>
-          </div>
+        <Slide cascade={true}>
+          {projects.map((project) => {
+            return (
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                link={project.link}
+                image={project.image}
+              />
+            );
+          })}
         </Slide>
       </div>
     </Fade>

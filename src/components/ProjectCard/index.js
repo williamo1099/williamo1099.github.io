@@ -1,26 +1,20 @@
+// STYLINGS
+import "./index.css";
+
 function ProjectCard(props) {
   return (
-    <div className="col-sm m-2">
-      <div className="card h-100 bg-secondary text-light">
-        <div className="card-body">
-          {/* IMAGE */}
-          <img
-            src={require("assets/images/projects/" + props.image)}
-            className=" card-image-top img-thumbnail w-50 mb-2"
-          />
+    <div class="card bg-secondary text-light rounded-0 m-3 p-2">
+      <img
+        src={require("assets/images/projects/" + props.image)}
+        class="card-img-top img-fluid rounded-0"
+      />
 
-          {/* TITLE */}
-          <h5 className="card-title">{props.title}</h5>
-
-          {/* DESCRIPTION */}
-          <p className="card-text">{props.description}</p>
-        </div>
-
-        <div className="card-footer">
-          <a className="text-light" href={props.link} target="_blank">
-            See more
-          </a>
-        </div>
+      <div class="card-body">
+        <h5 class="card-title fw-bold">{props.title}</h5>
+        <p class="card-text">{props.description}</p>
+        <a href={props.link} target="_blank" class="btn btn-primary rounded-0">
+          See more
+        </a>
       </div>
     </div>
   );

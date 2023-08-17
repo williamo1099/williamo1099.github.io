@@ -13,10 +13,10 @@ function Home() {
       <div className="d-flex container-fluid vh-100">
         <div className="row my-auto">
           {/* GREETING */}
-          <div className="col-lg my-auto one-page centering-portrait">
+          <div className="col-lg my-auto one-page portrait-center-display">
             <h1>
               Yo! My name is <br />
-              <Slide cascade={true}>
+              <Slide>
                 <span className="text-uppercase home-name-display">
                   William Oktavianus
                 </span>
@@ -30,7 +30,7 @@ function Home() {
             <br />
 
             <Link to="/contact">
-              <Slide cascade={true} delay={250}>
+              <Slide delay={250}>
                 <button
                   type="button"
                   className="btn btn-secondary btn-lg rounded-0"

@@ -1,0 +1,14 @@
+.card {
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 10%;
+}
+
+@media (orientation: portrait) {
+  .card-img-top {
+    width: 30%;
+  }
+}
