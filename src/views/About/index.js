@@ -1,8 +1,5 @@
 import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
-// STYLING
-import "index.css";
-
 // COMPONENTS
 import PageHeader from "components/PageHeader";
 
@@ -12,7 +9,7 @@ import Anya from "assets/images/sleeping-anya.gif";
 function About() {
   return (
     <Fade>
-      <div className="container-fluid one-page">
+      <div className="container-fluid">
         <PageHeader
           title="Know More About Me"
           subtitle="A little story about me as a programmer."

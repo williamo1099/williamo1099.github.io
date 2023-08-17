@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <Fade>
-      <div className="container-fluid one-page">
+      <div className="container-fluid">
         <PageHeader
           title="Get In Touch"
           subtitle="I will be in touch with you as soon as I read your message."
@@ -42,7 +42,7 @@ function Contact() {
             <form ref={form} onSubmit={handleSubmit}>
               {/* NAME */}
               <div className="form-group">
-                <label className="form-label">
+                <label className="fw-bold">
                   Name <span className="text-danger">*</span>
                 </label>
                 <input
@@ -58,7 +58,7 @@ function Contact() {
 
               {/* EMAIL */}
               <div className="form-group">
-                <label className="form-label">
+                <label className="fw-bold">
                   E-mail <span className="text-danger">*</span>
                 </label>
                 <input
@@ -74,7 +74,7 @@ function Contact() {
 
               {/* MESSAGE */}
               <div className="form-group">
-                <label className="form-label">
+                <label className="fw-bold">
                   Message <span className="text-danger">*</span>
                 </label>
                 <textarea

@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 
+// STYLINGS
+import "./index.css";
+
 function NavigationBar() {
   return (
     <div className="container-fluid">

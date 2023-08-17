@@ -42,7 +42,7 @@ function Portfolio() {
 
   return (
     <Fade>
-      <div className="container-fluid one-page">
+      <div className="container-fluid">
         <PageHeader
           title="Portfolio"
           subtitle="Some of my personal projects."
@@ -61,7 +61,7 @@ function Portfolio() {
               );
             })}
 
-            <div className="col-sm m-1 my-auto projects-row-soon">
+            <div className="col-sm m-1 my-auto centering-portrait">
               <h2>And more is coming soon</h2>
             </div>
           </div>

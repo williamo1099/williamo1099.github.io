@@ -1,0 +1,12 @@
+.nav-item {
+  font-size: large;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+}

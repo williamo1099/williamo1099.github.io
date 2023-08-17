@@ -1,20 +1,23 @@
 import { Link } from "react-router-dom";
 import { Fade, Slide, Bounce } from "react-awesome-reveal";
 
+// STYLINGS
+import "./index.css";
+
 // ASSETS
 import Profile from "assets/images/profile.png";
 
 function Home() {
   return (
     <Fade>
-      <div className="d-flex container-fluid vh-100 one-page">
+      <div className="d-flex container-fluid vh-100">
         <div className="row my-auto">
           {/* GREETING */}
-          <div className="col-lg home-greeting my-auto m-auto">
+          <div className="col-lg my-auto one-page centering-portrait">
             <h1>
               Yo! My name is <br />
               <Slide cascade={true}>
-                <span className="text-uppercase font-caption">
+                <span className="text-uppercase home-name-display">
                   William Oktavianus
                 </span>
               </Slide>
